@@ -61,11 +61,8 @@ Add permissions (if necessary) to your `AndroidManifest.xml`
 
 ```xml
 <!-- if you want to load images from the internet -->
-<uses-permission android:name="android.permission.INTERNET" /> 
+<uses-permission android:name="android.permission.INTERNET" />
 
-<!-- if you want to load images from a file OR from the internet -->
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-```
 
 **Note:** If you want to load images from the internet, you need both the `INTERNET` and `READ_EXTERNAL_STORAGE` permissions to allow files from the internet to be cached into local storage.
 
